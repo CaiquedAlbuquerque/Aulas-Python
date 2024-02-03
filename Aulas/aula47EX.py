@@ -23,11 +23,11 @@ numero_tentativas = 0
 
 while True:  
     letra_input = input('Digite uma letra: ')
-    numero_tentativas += 1
+    # numero_tentativas += 1 
 
     
     if len(letra_input) > 1:
-        print('Digite apenas uma letra')
+        print('Digite apenas uma letra') 
         continue
     
     if letra_input in palavra_secreta:
