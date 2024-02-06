@@ -17,7 +17,7 @@ usuário.
 import os
 
 
-palavra_secreta = 'perfume'
+palavra_secreta = 'casa'
 letras_acertadas = ''
 numero_tentativas = 0
 
