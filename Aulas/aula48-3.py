@@ -14,3 +14,12 @@ Métodos úteis:
 Create Read Update   Delete
 Criar, ler, alterar, apagar = lista[i] (CRUD)
 """
+#        0   1   2   3
+lista = [10, 20, 30, 40]
+lista.append('Caique')
+nome = lista.pop()
+lista.append(1233)
+del lista[-1]
+# lista.clear()
+lista.insert(2, 5)
+print(lista[4])
