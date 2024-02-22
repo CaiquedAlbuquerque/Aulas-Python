@@ -35,9 +35,6 @@ erros de índices inexistentes na lista.
 #         print('Digite uma opção válida')
         
 
- 
-
-
 
 import os
 
