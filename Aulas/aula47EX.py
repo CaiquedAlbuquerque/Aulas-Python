@@ -18,7 +18,7 @@ import os
 
 
 palavra_secreta = 'casa'
-letras_acertadas = ''
+letras_certas = ''
 numero_tentativas = 0
 
 while True:  
@@ -31,11 +31,11 @@ while True:
         continue
     
     if letra_input in palavra_secreta:
-        letras_acertadas += letra_input
+        letras_certas += letra_input
     
     palavra_formada = ''    
     for letra_secreta in palavra_secreta:
-        if letra_secreta in letras_acertadas:
+        if letra_secreta in letras_certas:
             palavra_formada += letra_secreta
         else:
             palavra_formada += '*'
@@ -47,7 +47,7 @@ while True:
         print('VOCÊ GANHOU! PARABÉN!')
         print('A palavra era', palavra_secreta)
         print('Tentativas', numero_tentativas)
-        letras_acertadas = ''
+        letras_certas = ''
         numero_tentativas = 0   
     
     
